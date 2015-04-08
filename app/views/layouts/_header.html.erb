@@ -3,8 +3,8 @@
   <%= link_to "Ruby 在线", { :controller=>'pages', :action=>'home'}, id: "logo" %>
   <nav>
     <ul class="nav navbar-nav pull-right">
-      <li><%= link_to '帮助', :action=>'help' %></li>
-      <li><%= link_to "关于", :action=>'about' %></li>
+      <li><%= link_to '帮助', { :controller=>'pages', :action=>'help'} %></li>
+      <li><%= link_to "关于", { :controller=>'pages', :action=>'about'} %></li>
     </ul>
   </nav>
 </div>
