@@ -1,3 +1,30 @@
 // Place all the styles related to the editor controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+}
+
+
+.console, .whiteboard {
+  float:left;
+  height:300px; //643
+  background-color:#000000;
+}
+
+.console {
+  color:red;
+  //margin-left: 10pt;
+  //display:block;
+  width:961px;
+  box-sizing:border-box;
+}
+
+.whiteboard {
+  color:yellow;
+  width:300px;
+  //display:block;
+  padding:10px;
+  position:fixed;
+  right:0;
+}
